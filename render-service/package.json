@@ -10,17 +10,17 @@
     "render:example": "remotion render src/index.ts promo out/promo.mp4"
   },
   "dependencies": {
-    "@remotion/bundler": "4.0.360",
-    "@remotion/renderer": "4.0.360",
+    "@remotion/bundler": "4.0.490",
+    "@remotion/renderer": "4.0.490",
     "@supabase/supabase-js": "^2.58.0",
     "express": "^4.21.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "remotion": "4.0.360",
+    "remotion": "4.0.490",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@remotion/cli": "4.0.360",
+    "@remotion/cli": "4.0.490",
     "@types/express": "^5.0.0",
     "@types/react": "19.0.0",
     "tsx": "^4.19.2",
