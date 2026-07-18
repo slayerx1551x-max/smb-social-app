@@ -1,0 +1,15 @@
+# Supabase CLI config. Links this repo to the hosted project.
+project_id = "tqvznoeszjuouvzsovhk"
+
+[db]
+major_version = 17
+
+[storage]
+enabled = true
+
+[auth]
+enable_signup = true
+# Email magic link is the primary sign-in method (see README).
+[auth.email]
+enable_signup = true
+enable_confirmations = true

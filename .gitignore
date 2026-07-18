@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+*.log
+
+# env
+.env
+.env*.local
+!.env.example
+
+# Expo
+app/.expo/
+app/dist/
+app/web-build/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/

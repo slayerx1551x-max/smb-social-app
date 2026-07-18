@@ -1,0 +1,14 @@
+{
+  "name": "smb-social-app",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "app": "npm --workspace app run start",
+    "app:ios": "npm --workspace app run ios",
+    "app:android": "npm --workspace app run android",
+    "app:web": "npm --workspace app run web"
+  }
+}
